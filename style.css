@@ -996,15 +996,33 @@ ul{
 
 @media(max-width:500px){
 
+    .header .container{
+        padding: 10px 0;
+        gap: 10px;
+    }
+
+    .log img{
+        width: 40px;
+        height: 40px;
+        border: 2px solid #d4af37;
+    }
+
     .logo h2{
 
-        font-size:22px;
+        font-size:18px;
 
+    }
+    .navbar ul{
+        gap:12px;
+    }
+    .navbar a{
+        font-size: 14px;
     }
 
     .call-btn{
 
-        padding:10px 20px;
+        padding:8px 16px;
+        font-size: 14px;
 
     }
 
